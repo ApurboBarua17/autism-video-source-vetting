@@ -11,8 +11,13 @@ with a specific criterion and change it without reverse engineering a model.
 MAX_PUBLISHER_POINTS = 40
 MAX_INTENT_POINTS = 30
 MAX_RELEVANCE_POINTS = 20
+MAX_PEDIATRIC_POINTS = 20
 
-PASS_THRESHOLD = 55
+MAX_TOTAL_POINTS = (
+    MAX_PUBLISHER_POINTS + MAX_INTENT_POINTS + MAX_RELEVANCE_POINTS + MAX_PEDIATRIC_POINTS
+)
+
+PASS_THRESHOLD = 65
 
 # Academic and government domains carry an institutional review structure behind
 # them, which is the closest thing to a guarantee available from a search result.
@@ -63,6 +68,30 @@ RESEARCH_INTENT_TERMS = (
 
 RELEVANCE_AUTISM_TERMS = ("autism", "autistic", "asd", "neurodivergent", "developmental disabilit")
 RELEVANCE_VIDEO_TERMS = ("video", "recording", "footage", "media library", "webinar", "clip")
+
+# The brief asks for material relevant to children specifically, not to autism in
+# general. Without this an adult employment or independent living resource scores
+# exactly as well as a pediatric one. "parent" and "family" are included because
+# a resource written for the parents of an autistic person is nearly always about
+# a child, and "early intervention" and "school" are pediatric by definition.
+PEDIATRIC_TERMS = (
+    "child",
+    "children",
+    "pediatric",
+    "paediatric",
+    "infant",
+    "toddler",
+    "adolescent",
+    "youth",
+    "young people",
+    "early intervention",
+    "school",
+    "student",
+    "classroom",
+    "parent",
+    "family",
+    "developmental screening",
+)
 
 # Phrases that suggest a specific identifiable child is the subject, or that the
 # material exists to build an audience. Either one makes a source unusable for
@@ -168,6 +197,20 @@ def score_relevance(candidate):
     return 0, "neither autism nor video evident"
 
 
+def score_pediatric_relevance(candidate):
+    """Rate whether the source is about children rather than autism in general."""
+    text = _searchable_text(candidate)
+
+    matched_terms = []
+    for term in PEDIATRIC_TERMS:
+        if term in text:
+            matched_terms.append(term)
+
+    if not matched_terms:
+        return 0, "no stated focus on children"
+    return MAX_PEDIATRIC_POINTS, f"focus on children ({', '.join(matched_terms[:2])})"
+
+
 def find_red_flags(candidate):
     """Return any personal or promotional content markers found.
 
@@ -189,9 +232,10 @@ def score_candidate(candidate):
     publisher_points, publisher_reason = score_publisher_legitimacy(candidate)
     intent_points, intent_reason = score_research_intent(candidate)
     relevance_points, relevance_reason = score_relevance(candidate)
+    pediatric_points, pediatric_reason = score_pediatric_relevance(candidate)
     red_flags = find_red_flags(candidate)
 
-    total = publisher_points + intent_points + relevance_points
+    total = publisher_points + intent_points + relevance_points + pediatric_points
 
     # Two gates that a high score alone cannot satisfy. A source with no evidence
     # of video is not a candidate video source however good the publisher is, and
@@ -218,7 +262,9 @@ def score_candidate(candidate):
     elif total >= PASS_THRESHOLD:
         passed = True
         category = "passed"
-        justification = f"Passed: {publisher_reason}, {intent_reason}, {relevance_reason}"
+        justification = (
+            f"Passed: {publisher_reason}, {intent_reason}, {relevance_reason}, {pediatric_reason}"
+        )
     else:
         passed = False
         category = f"scored below the pass mark of {PASS_THRESHOLD}"
@@ -230,6 +276,7 @@ def score_candidate(candidate):
             "publisher_points": publisher_points,
             "intent_points": intent_points,
             "relevance_points": relevance_points,
+            "pediatric_points": pediatric_points,
             "total_score": total,
             "red_flags": red_flags,
             "passed": passed,
