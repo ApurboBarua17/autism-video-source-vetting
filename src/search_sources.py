@@ -33,10 +33,16 @@ SEARCH_QUERIES = [
     "autism research video archive",
     "autism training videos clinic",
     "autism center video resources",
-    "autism intervention video examples",
     "autism nonprofit video library",
-    "autism assessment video university",
-    "autism early intervention videos",
+    # Half the queries name children explicitly. The brief asks for material about
+    # children with autism, and general autism queries return plenty of adult
+    # employment and independent living resources that score well on every other
+    # criterion. Scoring for children only helps if children are in the corpus.
+    "autism children video library",
+    "child autism assessment video university",
+    "pediatric autism clinical training videos",
+    "autism early intervention toddler videos",
+    "autism classroom video resources school",
 ]
 
 # Spaced wide on purpose. At four seconds the independent index started refusing
