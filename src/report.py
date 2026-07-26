@@ -5,6 +5,10 @@ import csv
 LINE_WIDTH = 100
 NEAR_MISS_COUNT = 6
 
+# The shortlist is printed in full up to this many. Past it the terminal output
+# stops being readable in one screen, and the CSV holds every row anyway.
+SHORTLIST_DISPLAY_COUNT = 10
+
 SCOPE_STATEMENT = """
 WHAT THIS TOOL DOES NOT DO
 
@@ -42,11 +46,15 @@ def print_ranked_candidates(scored_candidates):
     if not passed:
         print("  None of the candidates cleared the threshold.")
 
-    for position, candidate in enumerate(passed):
+    for position, candidate in enumerate(passed[:SHORTLIST_DISPLAY_COUNT]):
         print(f"\n{position + 1}. [{candidate['total_score']}] {candidate['publisher']}")
         print(f"   {candidate['title'][:88]}")
         print(f"   {candidate['url'][:88]}")
         print(f"   {candidate['justification']}")
+
+    if len(passed) > SHORTLIST_DISPLAY_COUNT:
+        remaining = len(passed) - SHORTLIST_DISPLAY_COUNT
+        print(f"\n  ... and {remaining} more that passed, listed in full in the CSV.")
 
     print(f"\n\nFILTERED OUT ({len(rejected)})")
     print("=" * LINE_WIDTH)
@@ -86,6 +94,7 @@ def write_candidates_csv(scored_candidates, output_path):
         "publisher_points",
         "intent_points",
         "relevance_points",
+        "pediatric_points",
         "justification",
     ]
 

@@ -5,7 +5,7 @@ from pathlib import Path
 
 from src.extract_candidates import build_candidates
 from src.report import print_ranked_candidates, print_scope_statement, write_candidates_csv
-from src.score_candidates import PASS_THRESHOLD, score_all
+from src.score_candidates import MAX_TOTAL_POINTS, PASS_THRESHOLD, score_all
 from src.search_sources import SEARCH_QUERIES, load_or_search
 
 PROJECT_ROOT = Path(__file__).parent
@@ -39,7 +39,9 @@ def main():
     print(f"{len(candidates)} distinct sources after merging duplicate URLs")
     print("Fields kept: source name, publisher, URL, title, description. No video touched.")
 
-    print_heading(f"STEP 3  Score against vetting criteria (pass mark {PASS_THRESHOLD}/90)")
+    print_heading(
+        f"STEP 3  Score against vetting criteria (pass mark {PASS_THRESHOLD}/{MAX_TOTAL_POINTS})"
+    )
     scored_candidates = score_all(candidates)
     passed_count = sum(1 for candidate in scored_candidates if candidate["passed"])
     print(f"{passed_count} passed, {len(scored_candidates) - passed_count} filtered out")
