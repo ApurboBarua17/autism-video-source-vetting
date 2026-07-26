@@ -28,16 +28,16 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Video Streaming Library \u2014 World Autism Conference",
-    "url": "https://worldautismconference.org/videos",
-    "snippet": "The largest Autism -focused streaming library in the world. With continuing education and conference resources available, 75+ sessions with over 50 world-renowned Autism speakers are just a click away. Geared towards educators, parents, professionals, and those who are diagnosed alike, this library supports and enriches the Autism community.",
+    "title": "Video Library - Autism Resources for Educators - Project ACCESS ...",
+    "url": "https://projectaccess.missouristate.edu/Resources/vidlib.htm",
+    "snippet": "Video Library This week's featured video : Autism Acceptance vs Autism Awareness AM ProjectACCESS Watch on Other videos :",
     "query": "autism video library university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Video Library - Autism Resources for Educators - Project ACCESS ...",
-    "url": "https://projectaccess.missouristate.edu/Resources/vidlib.htm",
-    "snippet": "Video Library This week's featured video : Autism Acceptance vs Autism Awareness AM ProjectACCESS Watch on Other videos :",
+    "title": "Video Streaming Library \u2014 World Autism Conference",
+    "url": "https://worldautismconference.org/videos",
+    "snippet": "The largest Autism -focused streaming library in the world. With continuing education and conference resources available, 75+ sessions with over 50 world-renowned Autism speakers are just a click away. Geared towards educators, parents, professionals, and those who are diagnosed alike, this library supports and enriches the Autism community.",
     "query": "autism video library university",
     "backend": "duckduckgo"
   },
@@ -63,9 +63,9 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "US Autism Association | Providing information and resources for over 25 ...",
-    "url": "https://usautism.org/",
-    "snippet": "US Autism Association's Video Streaming Library With over 150 expert speakers and 200+ hours of free, on-demand content, this is the largest, autism -specific video streaming library in existence. With our easy-to-use search feature you can quickly find the content that interests you most. Start watching today.",
+    "title": "see the film - Autism Goes To College",
+    "url": "https://www.autismgoestocollege.org/see-the-film/",
+    "snippet": "Autism Goes to College is a first of its kind film, packed with honest insights for students, parents and educators offering an eye-opening look at what a growing number of neurodiverse students are bringing to campus.",
     "query": "autism video library university",
     "backend": "duckduckgo"
   },
@@ -112,13 +112,6 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Video Streaming Library Main Menu | Watch Autism Insights Today \u2014 World ...",
-    "url": "https://worldautismconference.org/vsl/videos/page-1",
-    "snippet": "Explore our comprehensive video library featuring autism conference sessions, talks, and resources for education and awareness. Start learning today.",
-    "query": "autism research video archive",
-    "backend": "duckduckgo"
-  },
-  {
     "title": "SPARK Video Library - SPARK for Autism",
     "url": "https://sparkforautism.org/video-library/",
     "snippet": "Welcome to the SPARK Video library. Each video , below, is the start of a playlist. Click on the icon in the top right of a video to see that playlist.",
@@ -136,6 +129,13 @@
     "title": "Video Streaming Library \u2014 World Autism Conference",
     "url": "https://worldautismconference.org/videos",
     "snippet": "The largest Autism -focused streaming library in the world. With continuing education and conference resources available, 75+ sessions with over 50 world-renowned Autism speakers are just a click away. Geared towards educators, parents, professionals, and those who are diagnosed alike, this library supports and enriches the Autism community.",
+    "query": "autism research video archive",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Resources - Autism Research Centre",
+    "url": "https://www.autismresearchcentre.com/resources/",
+    "snippet": "Explore our evidence-based tools for home, school, and clinical use The Transporters The Transporters is a fun video series to help autistic children understand the causes of emotions, and the facial expressions that go with them. Research shows that even after watching The Transporters for just 15 minutes per day for one month, autistic children [\u2026]",
     "query": "autism research video archive",
     "backend": "duckduckgo"
   },
@@ -168,13 +168,6 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Parent Training - Autism Speaks",
-    "url": "https://www.autismspeaks.org/parent-training",
-    "snippet": "News Autism Speaks releases new CST Caregiver Quick Tips videos to support parents and caregivers of children with autism Blog Q&A: Parent video training for autism study News Autism Caregiver Training : Helping families",
-    "query": "autism training videos clinic",
-    "backend": "duckduckgo"
-  },
-  {
     "title": "ACT Autism Community Training - YouTube",
     "url": "https://www.youtube.com/ACTAutismCommunityTraining",
     "snippet": "We have videos on diverse topics, ranging from Toilet Training , Sleep, Mental Health and Autism , a series on Women and Girls with Autism , and a video learning series on Positive Behavior Support ...",
@@ -196,16 +189,23 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Expert Autism & ABA Training Videos | AutismFLIX",
-    "url": "https://autismflix.com/",
-    "snippet": "AutismFLIX offers expert-led autism and ABA training videos for parents, educators, and professionals. Access evidence-based content from leading clinicians.",
+    "title": "Introduction to Autism Video Series - Seattle Children's",
+    "url": "https://www.seattlechildrens.org/clinics/autism-center/patient-family-resources/videos/",
+    "snippet": "Watch Seattle Children's new autism video series providing science- and evidence-based information about autism spectrum disorder (ASD) for families.",
     "query": "autism training videos clinic",
     "backend": "duckduckgo"
   },
   {
-    "title": "Introduction to Autism Video Series - Seattle Children's",
-    "url": "https://www.seattlechildrens.org/clinics/autism-center/patient-family-resources/videos/",
-    "snippet": "Watch Seattle Children's new autism video series providing science- and evidence-based information about autism spectrum disorder (ASD) for families.",
+    "title": "Autism Teaching Videos | Practical Strategies for Special Education",
+    "url": "https://theautismhelper.com/videos/",
+    "snippet": "Watch free autism teaching videos on routines, behavior, AAC, and classroom strategies used by educators worldwide.",
+    "query": "autism training videos clinic",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Expert Autism & ABA Training Videos | AutismFLIX",
+    "url": "https://autismflix.com/",
+    "snippet": "AutismFLIX offers expert-led autism and ABA training videos for parents, educators, and professionals. Access evidence-based content from leading clinicians.",
     "query": "autism training videos clinic",
     "backend": "duckduckgo"
   },
@@ -245,16 +245,16 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "SPARK Video Library - SPARK for Autism",
-    "url": "https://sparkforautism.org/video-library/",
-    "snippet": "Welcome to the SPARK Video library. Each video , below, is the start of a playlist. Click on the icon in the top right of a video to see that playlist.",
+    "title": "Autism Treatment Center of America - YouTube",
+    "url": "https://www.youtube.com/@autismtreatment",
+    "snippet": "Since 1983, the Autism Treatment Center of America has presented Do Autism Differently\u00ae (formerly called The Son-Rise Program) - a truly child-centered approach for children and adults ...",
     "query": "autism center video resources",
     "backend": "duckduckgo"
   },
   {
-    "title": "Autism Treatment Center of America - YouTube",
-    "url": "https://www.youtube.com/@autismtreatment",
-    "snippet": "Since 1983, the Autism Treatment Center of America has presented Do Autism Differently\u00ae (formerly called The Son-Rise Program) - a truly child-centered approach for children and adults ...",
+    "title": "SPARK Video Library - SPARK for Autism",
+    "url": "https://sparkforautism.org/video-library/",
+    "snippet": "Welcome to the SPARK Video library. Each video , below, is the start of a playlist. Click on the icon in the top right of a video to see that playlist.",
     "query": "autism center video resources",
     "backend": "duckduckgo"
   },
@@ -280,76 +280,6 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "How to Use Video Modeling in Autism Therapy",
-    "url": "https://www.advancedautism.com/post/how-to-use-video-modeling-in-autism-therapy",
-    "snippet": "Understanding Video Modeling in Autism Therapy Video modeling has emerged as a groundbreaking technique in autism therapy, offering autistic individuals a valuable tool for skill acquisition and social communication. This visual-based intervention leverages the strengths of many individuals with autism , making complex behaviors more accessible through video demonstrations. Recognized as an ...",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Video Modeling Examples in Autism - Rainbow ABA Therapy",
-    "url": "https://rainbowtherapy.org/video-modeling-examples-in-autism/",
-    "snippet": "Video modeling can significantly improve the lives of autistic individuals. By watching others perform desired behaviors on video , individuals with autism can learn new skills and reduce anxiety. This article will explore real-world examples of video modeling in action, providing practical tips for parents and caregivers.",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Videos - Association for Science in Autism Treatment",
-    "url": "https://asatonline.org/research-treatment/resources/videos/",
-    "snippet": "Examples of Effective Instructional Methods ASAT is featuring these short videos to illustrate what applied behaviour analysis (ABA) intervention looks like in practice. We focus on ABA-based interventions here because they are the best documented form of effective instruction for individuals with autism , and have been endorsed by a number of state and federal agencies, including the U.S ...",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "ABA Autism Training - Chapter 1 - The Discrete Trial - YouTube",
-    "url": "https://www.youtube.com/watch?v=7pN6ydLE4EQ",
-    "snippet": "This video provides an overview of the components of a discrete trial -- the discriminative stimulus, the response from the child or prompt from the therapist, and finally, reinforcement or ...",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "An Early Intervention Model for Children w/ Autism: JASPER ... - YouTube",
-    "url": "https://www.youtube.com/watch?v=uTlQZulM22o",
-    "snippet": "The ability to engage with others and to communicate are primary targets of early interventions for children with autism . This talk will focus on an early intervention model, JASPER, that has been ...",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Autism Training Videos - WMU Autism Center of Excellence",
-    "url": "https://wmuace.com/videos/",
-    "snippet": "Autism Training Videos These videos feature presentations and interviews with national experts in applied behavior analysis, autism , and behavioral pediatrics. In many cases, the videos also include supplemental materials and clinical simulations that demonstrate the application of essential features of an assessment or intervention technique.",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Autism Videos @ ACT - ACT - Autism Community Training",
-    "url": "https://www.actcommunity.ca/education/videos/",
-    "snippet": "ACT Videos provide evidence-based learning resources presented by experienced professionals in autism support. Topics include toilet training, sleep, mental health, IEPs, research, and more. Choose a video below or browse by topic. This is a free resource supported through donations and sponsorship. For more information and to contribute, see Support ACT's Work. To search our videos , use the ...",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Video Modelling Interventions in Autism Education: A Systematic ... - MDPI",
-    "url": "https://www.mdpi.com/2076-0760/15/6/376",
-    "snippet": "Video modelling (VM) is widely used as an instructional strategy to support skill acquisition among individuals with autism spectrum disorder (ASD), particularly within visually mediated learning contexts. This systematic review synthesises recent empirical evidence on the effectiveness, limitations, and practical implementation of VM interventions in autism education. The review followed the ...",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "How to Use Video Modeling in ABA Therapy - Intellistars",
-    "url": "https://www.intellistarsaba.com/blog/how-to-use-video-modeling-in-aba-therapy",
-    "snippet": "Maximizing Skill Gains Through Visual Strategies Video modeling stands out as a powerful, versatile, and evidence-based tool within ABA therapy to foster essential skills in individuals with autism . Its ability to personalize content, promote independent learning, and be adapted to virtual settings makes it invaluable in modern interventions .",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "A Treatment Summary of Video Modeling for Individuals with Autism",
-    "url": "https://asatonline.org/for-parents/learn-more-about-specific-treatments/applied-behavior-analysis-aba/aba-techniques/video-modeling/",
-    "snippet": "Video modeling is a well-established teaching method in applied behavior analysis for individuals with autism spectrum disorders.",
-    "query": "autism intervention video examples",
-    "backend": "duckduckgo"
-  },
-  {
     "title": "Video Streaming Library \u2014 World Autism Conference",
     "url": "https://worldautismconference.org/videos",
     "snippet": "The largest Autism -focused streaming library in the world. With continuing education and conference resources available, 75+ sessions with over 50 world-renowned Autism speakers are just a click away. Geared towards educators, parents, professionals, and those who are diagnosed alike, this library supports and enriches the Autism community.",
@@ -371,16 +301,9 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Voices of Autism Video Library - Anschutz Medical Campus",
-    "url": "https://medschool.cuanschutz.edu/jfk-partners/resources/voices-of-autism-video-library",
-    "snippet": "This is a project of the Autism and Developmental Disabilities Clinic of JFK Partners, a University Center for Excellence in Developmental Disabilities. Voices of Adults with ASD This video profiles four adults living with autism as they share their personal stories including their challenges, strengths, advice, and hopes/beliefs about the future.",
-    "query": "autism nonprofit video library",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "US Autism Association - YouTube",
-    "url": "https://www.youtube.com/c/USAutismAssociation",
-    "snippet": "The US Autism Association is a 501(C)(3) non-profit organization which boasts a proud network of world-renowned professionals with expertise in Autism . We hold the belief that if you want to ...",
+    "title": "Autism support, resources & advocacy | Autism Speaks",
+    "url": "https://www.autismspeaks.org/",
+    "snippet": "Autism Speaks is dedicated to promoting solutions, across the spectrum and throughout the life span, for the needs of individuals with autism and families.",
     "query": "autism nonprofit video library",
     "backend": "duckduckgo"
   },
@@ -392,23 +315,9 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Autism support, resources & advocacy | Autism Speaks",
-    "url": "https://www.autismspeaks.org/",
-    "snippet": "Autism Speaks is dedicated to promoting solutions, across the spectrum and throughout the life span, for the needs of individuals with autism and families.",
-    "query": "autism nonprofit video library",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Video Library - Autism Society Inland Empire",
-    "url": "https://ieautism.org/video-library/",
-    "snippet": "Enjoy the Autism U Video Library of the Latest Educational Presentations",
-    "query": "autism nonprofit video library",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "KultureCity - Making the nevers possible",
-    "url": "https://www.kulturecity.org/",
-    "snippet": "As the world's leading nonprofit on sensory accessibility and acceptance, We Make the Nevers Possible by creating sensory accessibility and inclusion for those with invisible disabilities. 1 in 4 individuals have a sensory need or an invisible disability, These are individuals with PTSD, autism , dementia, strokes just to name a few.",
+    "title": "Voices of Autism Video Library - Anschutz Medical Campus",
+    "url": "https://medschool.cuanschutz.edu/jfk-partners/resources/voices-of-autism-video-library",
+    "snippet": "This is a project of the Autism and Developmental Disabilities Clinic of JFK Partners, a University Center for Excellence in Developmental Disabilities. Voices of Adults with ASD This video profiles four adults living with autism as they share their personal stories including their challenges, strengths, advice, and hopes/beliefs about the future.",
     "query": "autism nonprofit video library",
     "backend": "duckduckgo"
   },
@@ -420,143 +329,374 @@
     "backend": "duckduckgo"
   },
   {
-    "title": "Watch Approaching Adult Autism Assessment through a ... - Vimeo",
-    "url": "https://vimeo.com/ondemand/autismassessment",
-    "snippet": "Discover neurodiversity-affirming approaches to adult autism assessment Explore how adult autism assessment can be used as part of the therapeutic process The webinar also includes a 45-minute clinical panel discussion between researchers and practicing clinicians and ends with an audience Q&A session.",
-    "query": "autism assessment video university",
+    "title": "TEAM Video Library - Psychiatry",
+    "url": "https://psych.med.umich.edu/team/",
+    "snippet": "TEAM Video Library About this site The Teaching and Education for Autism and Developmental Disabilities Management Video Library offers a broad range of educational videos for health care professionals who wish to deepen their knowledge of Autism Spectrum Disorders and other developmental disabilities.",
+    "query": "autism nonprofit video library",
     "backend": "duckduckgo"
   },
   {
-    "title": "Yale Autism Seminar - YouTube",
-    "url": "https://www.youtube.com/playlist?list=PL27FAF837577D180A",
-    "snippet": "For Yale undergraduates, the class consists of a weekly seminar on diagnosis and assessment , etiology and treatment of children, adolescents and adults with autism and related disorders of ...",
-    "query": "autism assessment video university",
+    "title": "US Autism Association - YouTube",
+    "url": "https://www.youtube.com/c/USAutismAssociation",
+    "snippet": "The US Autism Association is a 501(C)(3) non-profit organization which boasts a proud network of world-renowned professionals with expertise in Autism . We hold the belief that if you want to ...",
+    "query": "autism nonprofit video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "US Autism Association | Providing information and resources for over 25 ...",
+    "url": "https://usautism.org/",
+    "snippet": "US Autism Association's Video Streaming Library With over 150 expert speakers and 200+ hours of free, on-demand content, this is the largest, autism -specific video streaming library in existence. With our easy-to-use search feature you can quickly find the content that interests you most. Start watching today.",
+    "query": "autism nonprofit video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Learning Videos for Kids with Autism Spectrum Disorder (ASD)",
+    "url": "https://www.youtube.com/playlist?list=PLmUKrqO9bHLWHUop9JYSmC90ET2h6QPh7",
+    "snippet": "These music videos are perfect for kids with autism spectrum disorder. Kids can sing along and interact with each song. Learn shapes, colors, ABCs, phonics, ...",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Conversations About Autism - YouTube",
+    "url": "https://www.youtube.com/playlist?list=PLjvfRtcMhn4PB0NTW0RlvsMJGu1Csnn5s",
+    "snippet": "Conversations About Autism is a series of 60-minute live-streamed sessions created for providers and caregivers of children with autism who wish to better understand the autism spectrum disorder.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "SPARK Video Library - SPARK for Autism",
+    "url": "https://sparkforautism.org/video-library/",
+    "snippet": "Welcome to the SPARK Video library . Each video , below, is the start of a playlist. Click on the icon in the top right of a video to see that playlist.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Conversations About Autism: Free Educational Videos for Parents from ...",
+    "url": "https://thriveabatherapy.org/blog/conversations-about-autism-seattle-childrens/",
+    "snippet": "Conversations About Autism is a free, on-demand video library created by Seattle Children's Autism Center. The series features discussions between providers, caregivers, and autistic individuals on topics related to supporting children , adolescents, and adults with autism .",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Video Streaming Library \u2014 World Autism Conference",
+    "url": "https://worldautismconference.org/videos",
+    "snippet": "The largest Autism -focused streaming library in the world. With continuing education and conference resources available, 75+ sessions with over 50 world-renowned Autism speakers are just a click away. Geared towards educators, parents, professionals, and those who are diagnosed alike, this library supports and enriches the Autism community.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Video Streaming Library Main Menu | Watch Autism Insights Today \u2014 World ...",
+    "url": "https://worldautismconference.org/vsl/videos/page-1",
+    "snippet": "Explore our comprehensive video library featuring autism conference sessions, talks, and resources for education and awareness. Start learning today.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Conversation: The Conversation Library - Model Me Kids, LLC",
+    "url": "https://www.modelmekids.com/autism-conversation-library/",
+    "snippet": "A library of conversation videos for students with Autism , special needs, and Pre-K that model social communication skills.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Teaching Videos | Practical Strategies for Special Education",
+    "url": "https://theautismhelper.com/videos/",
+    "snippet": "Watch free autism teaching videos on routines, behavior, AAC, and classroom strategies used by educators worldwide.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Educational Animation Videos about Autistic Experiences",
+    "url": "https://thrivingautistic.org/autistic-experiences-animation-videos/",
+    "snippet": "Our two new neuro-affirming educational animation videos celebrate Autistic experiences and perspectives. Our animations were proudly created by a neurodiverse, international team, and all our writers are Autistic. Discovering You're Autistic shares the strengths and possibilities that come with understanding yourself and finding belonging.",
+    "query": "autism children video library",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Introduction to Autism Video Series - Seattle Children's",
+    "url": "https://www.seattlechildrens.org/clinics/autism-center/patient-family-resources/videos/",
+    "snippet": "Watch Seattle Children's new autism video series providing science- and evidence-based information about autism spectrum disorder (ASD) for families.",
+    "query": "autism children video library",
     "backend": "duckduckgo"
   },
   {
     "title": "Autism Training Videos - WMU Autism Center of Excellence",
     "url": "https://wmuace.com/videos/",
     "snippet": "Autism Training Videos These videos feature presentations and interviews with national experts in applied behavior analysis, autism , and behavioral pediatrics. In many cases, the videos also include supplemental materials and clinical simulations that demonstrate the application of essential features of an assessment or intervention technique.",
-    "query": "autism assessment video university",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "GAIN - Global Autism Interactive Network",
-    "url": "https://gain.ku.edu/",
-    "snippet": "The Global Autism Interactive Network (GAIN) is a professional development program aimed at enhancing skills in assessing Autism Spectrum Disorder (ASD). To achieve this goal, GAIN provides a diverse range of training opportunities. These include monthly virtual calibration meetings centered on the ADOS-2 ( Autism Diagnostic Observation Schedule-2nd Edition) and workshops focused on best ...",
-    "query": "autism assessment video university",
+    "title": "Vanderbilt TRIAD Autism Tool: TELE-ASD-PEDS - VUMC",
+    "url": "https://vkc.vumc.org/vkc/triad/tele-asd-peds",
+    "snippet": "What is the TELE-ASD-PEDS (TAP)? TAP is a tool designed for use by providers and families during a telehealth assessment for autism . Using TAP, a provider walks a parent through several basic tasks with their child . These tasks allow the provider to watch for the presence of autism symptoms. Administration is meant to take 10-20 minutes. The entire tele-visit, inclusive of other elements, will ...",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Autism Assessment, Katherine Tsatsanis - YouTube",
-    "url": "https://www.youtube.com/watch?v=EjlizuWPqV0",
-    "snippet": "The central theme of this presentation is diagnosis and assessment of autism spectrum disorders. Diagnosis is a clinical endeavor, made by experienced clinic...",
-    "query": "autism assessment video university",
-    "backend": "duckduckgo"
-  },
-  {
-    "title": "Autism Diagnostic Training Program | Graduate School of Applied and ...",
-    "url": "https://gsapp.rutgers.edu/autism-diagnostic-training",
-    "snippet": "The Autism Diagnostic Interview - Revised (ADI-R) is a widely used, standardized assessment tool for establishing autism diagnoses. The comprehensive interview, which can be administered in person or via telehealth using videoconferencing, allows clinicians and researchers to collect valuable information about an individual's behaviors and ...",
-    "query": "autism assessment video university",
+    "title": "Yale Autism Seminar - YouTube",
+    "url": "https://www.youtube.com/playlist?list=PL27FAF837577D180A",
+    "snippet": "For Yale undergraduates, the class consists of a weekly seminar on diagnosis and assessment , etiology and treatment of children, adolescents and adults with autism and related disorders of ...",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
     "title": "Autism Research Institute Webinars",
     "url": "https://autism.org/webinars/",
     "snippet": "Free webinars for people diagnosed with autism , parents, educators, and professionals supporting medical and behavioral symptoms of ASDs.",
-    "query": "autism assessment video university",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Autism Assessment Trainings | Masonic Institute for the Developing Brain",
-    "url": "https://midb.umn.edu/training-education/autism-assessment-trainings",
-    "snippet": "The Autism Diagnostic Interview-Revised (ADI-R) is a widely used, standardized assessment tool for establishing autism diagnoses. The comprehensive interview, which can be administered in person or via telehealth using videoconferencing, allows clinicians and researchers to collect valuable information about an individual's behaviors and ...",
-    "query": "autism assessment video university",
+    "title": "Autism Evaluation - UW Autism - UW Departments Web Server",
+    "url": "https://depts.washington.edu/uwautism/clinical-services/evaluations/diagnostic-evaluation/",
+    "snippet": "Here is a link for a 9-minute video tutorial on behavioral signs of Autism Spectrum Disorder (ASD) in toddlers. It includes video clips of specific behaviors indicative of either ASD or typical child development.",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Vanderbilt TRIAD Diagnostic Trainings - Autism Screening and ... - VUMC",
-    "url": "https://triad.vumc.org/diagnostic",
-    "snippet": "Autism Screening and Evaluation Trainings TRIAD provides interactive training for professionals to learn more about screening and diagnostic tools for individuals with ASD.",
-    "query": "autism assessment video university",
+    "title": "Autism Assessment, Katherine Tsatsanis - YouTube",
+    "url": "https://www.youtube.com/watch?v=EjlizuWPqV0",
+    "snippet": "The central theme of this presentation is diagnosis and assessment of autism spectrum disorders. Diagnosis is a clinical endeavor, made by experienced clinic...",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Vanderbilt TRIAD Autism Tool: TELE-ASD-PEDS - VUMC",
-    "url": "https://vkc.vumc.org/vkc/triad/tele-asd-peds",
-    "snippet": "What is the TELE-ASD-PEDS (TAP)? TAP is a tool designed for use by providers and families during a telehealth assessment for autism . Using TAP, a provider walks a parent through several basic tasks with their child. These tasks allow the provider to watch for the presence of autism symptoms. Administration is meant to take 10-20 minutes. The entire tele-visit, inclusive of other elements, will ...",
-    "query": "autism assessment video university",
+    "title": "Autism Research Institute",
+    "url": "https://autism.org/",
+    "snippet": "ARI works to advance the understanding of autism by funding research and facilitating education on its causes and the potential treatments.",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "AUT to Know - Early Intervention - YouTube",
-    "url": "https://www.youtube.com/watch?v=gIQ40fqLJQA",
-    "snippet": "They'll share what makes an early intervention service evidence-based and how to work with therapists and service providers to create the best outcomes.",
-    "query": "autism early intervention videos",
+    "title": "Functional Analysis of Problem Behavior - WMU Autism Center of Excellence",
+    "url": "https://wmuace.com/videos/functional-analysis/",
+    "snippet": "Much of Iwata's research has focused on the functional (experimental) analysis of severe behavior disorders. This approach to assessment and treatment is one of the most significant advancements in behavior analysis over the past 30 years and is now considered the standard in the field for both clinical research and practice.",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "EARLY INTERVENTION - YouTube",
-    "url": "https://www.youtube.com/playlist?list=PLDe70ImaRibXam9K6L90yUIfZHbLk0HH8",
-    "snippet": "PHASE 1 - Early Education, Life Skills, Job Skills, Crisis Intervention Preschool until Adult Life is one of the many things Sounds of Autism encourages.",
-    "query": "autism early intervention videos",
+    "title": "Video Series: Successful Strategies for Teaching Students with Autism ...",
+    "url": "https://www.southernct.edu/asd-center/Video-and-Asynchronous-Programs/training",
+    "snippet": "This 20-part professional development video series covers a wide array of topics related to teaching students with autism . These include the most relevant evidence-based practices along with immediately applicable information for: Parents and Caregivers - Learn effective methods to assist individual with ASEM as they grow and thrive.",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Video Library | The Early Childhood Personnel Center | Uconn Center for ...",
-    "url": "https://ecpcta.org/video-library/",
-    "snippet": "The video library is a compilation of almost 500 videos that may be used in early childhood intervention pre-service courses or in-service training. Each video contains the following relevant information:",
-    "query": "autism early intervention videos",
+    "title": "Autism (Training) Assessment Tools & Resources - Pearson Assessments",
+    "url": "https://www.pearsonassessments.com/professional-assessments/featured-topics/autism/training.html",
+    "snippet": "Autism Assessment and Diagnosis Online Course (Annie's Centre) We're excited to feature the Autism Assessment and Diagnosis Online Course from Annie's Centre. These comprehensive, self-paced training offerings are designed for professionals who assess, diagnose, and support individuals with Autism Spectrum Disorder (ASD).",
+    "query": "child autism assessment video university",
     "backend": "duckduckgo"
   },
   {
-    "title": "Autism Videos for Teachers | Nip in the Bud",
-    "url": "https://nipinthebud.org/films-teachers-category/autism/",
-    "snippet": "Early intervention can be extremely effective at limiting the effects of these co-existing mental health conditions. Watch our film which features an interview with Professor Emily Simonoff, Professor of Child and Adolescent Psychiatry at King's College London, to find out more about autism and co-existing mental health conditions.",
-    "query": "autism early intervention videos",
+    "title": "Supporting Autism Assessment and Care Coordination: Training Resources ...",
+    "url": "https://vkc.vumc.org/vkc/triad/provider-training/",
+    "snippet": "Training Resources for Pediatric Learners and Providers: Supporting Autism Assessment and Care Coordination This page provides curated teaching tools, learning activities, and clinical resources focused on autism assessment, diagnosis, and care coordination in pediatric settings.",
+    "query": "pediatric autism clinical training videos",
     "backend": "duckduckgo"
   },
   {
-    "title": "CDC | Videos | Autism Case Training | Learn the Signs. Act Early. | NCBDDD",
+    "title": "Autism Training Videos | ELIJA - Championing Hope, One Child at a Time",
+    "url": "https://www.elija.org/resources/autismtraining",
+    "snippet": "Assessment and Treatment of Pediatric Feeding Disorders Assessment and Treatment of Pediatric Feeding Disorders Autism Center of Excellence Watch on",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Training Videos - WMU Autism Center of Excellence",
+    "url": "https://wmuace.com/videos/",
+    "snippet": "Autism Training Videos These videos feature presentations and interviews with national experts in applied behavior analysis, autism , and behavioral pediatrics . In many cases, the videos also include supplemental materials and clinical simulations that demonstrate the application of essential features of an assessment or intervention technique.",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Case Training Videos: A Developmental Behavioral Pediatrics ...",
     "url": "http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/ncbddd/actearly/autism/video/index.html",
-    "snippet": "Act Early .\" The campaign aims to educate parents about childhood development, including early warning signs of autism and other developmental disorders, and encourages developmental screening and intervention .",
-    "query": "autism early intervention videos",
+    "snippet": "The Centers for Disease Control and Prevention's (CDC) National Center on Birth Defects and Developmental Disabilities (NCBDDD), in collaboration with a number of national partners, launched a public awareness campaign called \"Learn the Signs. Act Early.\" The campaign aims to educate parents about childhood development, including early warning signs of autism and other developmental ...",
+    "query": "pediatric autism clinical training videos",
     "backend": "duckduckgo"
   },
   {
-    "title": "Free videos for early intervention - TPT",
-    "url": "https://www.teacherspayteachers.com/browse/programs/early-intervention/video/free",
-    "snippet": "Browse free videos for early intervention on Teachers Pay Teachers, a marketplace trusted by millions of teachers for original educational resources.",
-    "query": "autism early intervention videos",
+    "title": "Tools and Resources for Pediatricians - American Academy of Pediatrics",
+    "url": "https://www.aap.org/en/patient-care/autism/tools-and-resources-for-pediatricians/",
+    "snippet": "Find a comprehensive range of tools and resources specifically designed for pediatricians in the field of autism . The American Academy of Pediatrics (AAP) offers a wealth of evidence-based materials, screening tools, practice guidelines, and educational resources to aid pediatricians in diagnosing, managing, and supporting children with autism spectrum disorder (ASD). Explore practical tools ...",
+    "query": "pediatric autism clinical training videos",
     "backend": "duckduckgo"
   },
   {
-    "title": "Free Early Intervention Special Education Videos - TPT",
-    "url": "https://www.teacherspayteachers.com/browse/video/free/special-education/programs/early-intervention?NK=Nu",
-    "snippet": "Browse free early intervention special education videos on Teachers Pay Teachers, a marketplace trusted by millions of teachers for original educational resources.",
-    "query": "autism early intervention videos",
+    "title": "Autism Teaching Videos | Practical Strategies for Special Education",
+    "url": "https://theautismhelper.com/videos/",
+    "snippet": "Watch free autism teaching videos on routines, behavior, AAC, and classroom strategies used by educators worldwide.",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "PDF ACCESS Medical Provider Training Resources - OHSU",
+    "url": "https://www.ohsu.edu/sites/default/files/2024-07/ACCESS%20Medical%20Provider%20Training%20Resources.pdf",
+    "snippet": "Autism Navigator Professional Training Resources These online courses offer interactive slides and an extensive video library, covering topics from early detection of toddlers with autism to evidence-based intervention strategies and supports for social communication, active engagement, and addressing challenging behavior. Questions?",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "ACT Autism Community Training - YouTube",
+    "url": "https://www.youtube.com/ACTAutismCommunityTraining",
+    "snippet": "Autism Videos @ ACT (AVA) provides practical information presented by respected clinicians committed to sharing the latest in research and clinical experience. We have videos on diverse topics ...",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Identification and Collaborative Care | shopAAP",
+    "url": "https://www.aap.org/Autism-Identification-and-Collaborative-Care",
+    "snippet": "Physician - Autism Identification and Collaborative Care The American Academy of Pediatrics (AAP) is accredited by the Accreditation Council for Continuing Medical Education (ACCME) to provide continuing medical education for physicians.",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Clinic Recorded Trainings - Children's Mercy",
+    "url": "https://www.childrensmercy.org/departments-and-clinics/developmental-and-behavioral-health/autism-clinic/recorded-trainings/",
+    "snippet": "Speaker: Darren Olsen, PhD, Child Psychologist This training explores recognizing and addressing mental health differences (e.g. depression, anxiety) in youth with autism spectrum disorder (ASD). Unique manifestations, challenges, and an overview of evidence-based psychosocial and medical treatments are discussed.",
+    "query": "pediatric autism clinical training videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Early Signs of Autism in Toddlers | ABA Therapy & Early Intervention ...",
+    "url": "https://www.youtube.com/watch?v=2zt7vyB4HSU",
+    "snippet": "Early signs of autism , ABA therapy, and early intervention\u2014what should parents look for and when should you take action? In this video , Blooming Behavior Services explains how to recognize ...",
+    "query": "autism early intervention toddler videos",
     "backend": "duckduckgo"
   },
   {
     "title": "Speech Videos for Toddlers and Babies - Early Intervention Activities ...",
     "url": "https://kidvideo.org/video/speech-videos-for-toddlers-and-babies-early-intervention-activities-and-baby-milestones-video-i74855.html",
     "snippet": "Our Speech Videos for Toddlers and Babies, \"Talking Time\" encourage speech and show early intervention activities. All babies and toddlers benefit from singing songs and nursery rhymes, rich pretend play, modeling language and interactions and floor time.",
-    "query": "autism early intervention videos",
+    "query": "autism early intervention toddler videos",
     "backend": "duckduckgo"
   },
   {
-    "title": "Video Library - EI Excellence",
-    "url": "https://www.eiexcellence.org/resources/video-library/",
-    "snippet": "Early Intervention : A Routines Based Approach This is a three part series of short videos produced by VA Early Intervention Professional Development program. The videos feature three current early intervention service providers sharing their insights into providing supports and services using a routines-based approach. Part 1: Traditional vs ...",
-    "query": "autism early intervention videos",
+    "title": "Early Child Intervention for Children with Autism - YouTube",
+    "url": "https://www.youtube.com/watch?v=xj0C2ddTpFU",
+    "snippet": "Don't wait for early child intervention if you think your child or client might have autism . Today Dr. Mary Barbera talks about early intervention for kids experiencing developmental and ...",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Video Library | The Early Childhood Personnel Center | Uconn Center for ...",
+    "url": "https://ecpcta.org/video-library/",
+    "snippet": "The video library is a compilation of almost 500 videos that may be used in early childhood intervention pre-service courses or in-service training. Each video contains the following relevant information:",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "CDC | Videos | Autism Case Training | Learn the Signs. Act Early. | NCBDDD",
+    "url": "http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/ncbddd/actearly/autism/video/index.html",
+    "snippet": "Act Early .\" The campaign aims to educate parents about childhood development, including early warning signs of autism and other developmental disorders, and encourages developmental screening and intervention .",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "10 Learning Videos for Autistic Toddlers",
+    "url": "https://www.speciallearninghouse.com/learning-videos-for-autistic-toddlers/",
+    "snippet": "Educational learning videos for autistic toddlers to teach new vocabulary and simple sentences. Teach the names of clothing, toys, food, etc.",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Module 1 | Videos | Autism Case Training | Learn the Signs. Act Early ...",
+    "url": "http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/ncbddd/actearly/autism/video/module1.html",
+    "snippet": "Shows early warning signs of autism : lack of joint attention and social engagement, inappropriate play with a toys, preoccupation with parts of the toy, lack of pretend play. Demonstrates interaction between therapist and child to encourage appropriate play. [Pairs well with \"Observation: Typical Play: Kyle, 13 months\"]",
+    "query": "autism early intervention toddler videos",
     "backend": "duckduckgo"
   },
   {
     "title": "EI Video Library - Google Sites",
     "url": "https://sites.google.com/odu.edu/ei-video-library?usp=sharing",
-    "snippet": "This video library is a collaborative project of the Division for Early Childhood (DEC) Professional Development Community of Practice, staff at the Early Intervention Training Program at the College of Education, University of Illinois, and faculty in the Early Childhood Special Education program at Old Dominion University. To find videos by topic, click on a category in the Main Menu to the ...",
-    "query": "autism early intervention videos",
+    "snippet": "Featured Video 5 Things to Know about Early Intervention for Children with Developmental Disabilities This video features Dr. Koyeli Sengupta discussing Early Intervention from the perspective of its outcomes, the role that therapists play and the developmental importance of the first 3 years of a child's life.",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Free videos for early intervention - TPT",
+    "url": "https://www.teacherspayteachers.com/browse/programs/early-intervention/video/free",
+    "snippet": "Browse free videos for early intervention on Teachers Pay Teachers, a marketplace trusted by millions of teachers for original educational resources.",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "PDF How-To Guide Library of Everyday Activities Script",
+    "url": "https://autismnavigator.learnercommunity.com/Files/Org/b7feabe6ed9e4713b02511fc0003214c/site/AutismNavigatorHow-ToGuideLibraryofEverydayActivitiesScript_.pdf",
+    "snippet": "In the Library of Change with Early Intervention you can watch video clips of eight toddlers with autism over time so you can see the impact early intervention has on their development and learning.",
+    "query": "autism early intervention toddler videos",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Teaching Videos | Practical Strategies for Special Education",
+    "url": "https://theautismhelper.com/videos/",
+    "snippet": "Watch free autism teaching videos on routines, behavior, AAC, and classroom strategies used by educators worldwide.",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Classroom Resources",
+    "url": "https://autismclassroomresources.com/",
+    "snippet": "I help special ed and autism classroom staff like you connect with your students, build successful relationships, prevent behavior issues, and improve outcomes.",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "The Autism Helper | Resources & Curriculum for Autism",
+    "url": "https://theautismhelper.com/",
+    "snippet": "Discover practical autism resources , training, and curriculum with visual supports, behavior strategies, and tools for special education success.",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Your Home for Autism Education Resources - AutismClassroom.com",
+    "url": "https://www.autismclassroom.com/",
+    "snippet": "Today we provide school districts with practical, ready-to-use resources for students with significant special needs: a flagship online course to help teachers set up an autism classroom , and a comprehensive suite of student workbooks used by special education teams across the country.",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Top Autism Resources for Teachers and Schools",
+    "url": "https://www.weareteachers.com/autism-resources-for-teachers/",
+    "snippet": "Help every student succeed with these autism resources for teachers and other educators. Articles, books, websites, and more!",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Classroom - YouTube",
+    "url": "https://www.youtube.com/@autismclassroom183",
+    "snippet": "Check in each week for fresh ideas for your autism classroom set up. AutismClassroom .com has workbooks for students with autism , printables and videos to help you run your autism support classroom ...",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Essential Autism Classroom Resources for Student Success",
+    "url": "https://neurolaunch.com/autism-classroom-resources/",
+    "snippet": "The right autism classroom resources don't just make teaching easier, they can be the difference between a student who shuts down and one who suddenly has a way to communicate, regulate, and learn. This guide covers the evidence-based tools that actually work: visual supports, sensory accommodations, AAC devices, curriculum adaptations, and more, with research behind each category and ...",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Online Autism Courses | The Autism Academy AZ",
+    "url": "https://aaed.org/online-campus/",
+    "snippet": "We have incorporated our entire curriculum onto an online platform so your student can learn from home. We've put together these video resources for you on a variety of topics, from virtual learning at home, to classes with your favorite teachers from the Autism Academy of Education & Development.",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Autism Videos | Time for School\u2122 - Model Me Kids, LLC",
+    "url": "https://www.modelmekids.com/autism-videos/",
+    "snippet": "Time for School \u2122 Autism videos model expected behavior at school , in the classroom , the library, the playground, and the hallway.",
+    "query": "autism classroom video resources school",
+    "backend": "duckduckgo"
+  },
+  {
+    "title": "Back to School Tips for an Autism Classroom - YouTube",
+    "url": "https://www.youtube.com/watch?v=lPfyvS8MjYY",
+    "snippet": "In this video , she is sharing exactly what she does in the first few weeks of the school year to set her autism classroom up for success.",
+    "query": "autism classroom video resources school",
     "backend": "duckduckgo"
   }
 ]
