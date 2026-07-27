@@ -6,25 +6,15 @@ a ranked shortlist of candidate sources with a reason attached to every decision
 
 It does not collect video. That is deliberate, and it is the main design decision in the project.
 
-## Why this vets sources instead of collecting video
+## Vets sources instead of collecting video
 
-The obvious reading of "locate video data relevant to children with autism" is a scraper. I did
-not build one, for a reason I would rather state plainly than bury.
 
-Downloading and storing video of real children creates a consent problem that no amount of
-careful engineering solves. The children in that footage did not agree to be in my dataset.
-Their parents may have agreed to a therapy clinic publishing a teaching example, which is a
-completely different thing from agreeing to research use by a stranger. A public URL is not
-consent, and a permissive license is not consent either. Building the scraper first and sorting
-out the ethics afterwards gets the order backwards, and in a take home exercise there is no IRB
-standing between me and a folder full of video of identifiable children.
-
-So the tool stops one step earlier, at the point that is actually useful and actually safe. It
+Since downloading and storing video of real children creates a consent problem, the tool stops one step earlier, at the point that is actually useful and actually safe. It
 finds the organizations that hold relevant material and works out which of them are worth
 contacting. That shortlist is the real bottleneck in this kind of work. The download step is
-easy once you have permission, and it should not happen before.
+easy once you have permission.
 
-The output is a list of institutions to talk to. It is not a dataset.
+The output is a list of institutions to talk to.
 
 ## What it does
 
