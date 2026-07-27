@@ -43,8 +43,9 @@ Four steps, one module each under `src/`:
 2. `extract_candidates.py` turns those rows into one record per URL, keeping the source name,
    publisher, URL, title and description. Nothing else is fetched.
 3. `score_candidates.py` scores each candidate and decides whether it passes.
-4. `report.py` prints the ranked list with a one line justification per source, then prints the
-   limits of what any of this establishes.
+4. `report.py` states the limits of what any of this establishes, then prints the ranked list
+   with a one line justification per source. The limits come first on purpose, so a reader knows
+   what a passing score does not mean before they read the names.
 
 The searches are written to look for university labs, clinics, established nonprofits and
 material published alongside peer reviewed work. There are deliberately no queries that would
@@ -71,7 +72,7 @@ answering normally with an empty page rather than by returning an error. I ran i
 while building the tool, so three things came out of it. Queries fall back across three
 independent endpoints instead of depending on one. Queries are spaced twelve seconds apart,
 because at four seconds the smaller index started refusing after three of them and quietly cost
-me five of the eight searches. And an empty result now raises instead of being written to the
+me most of the run. And an empty result now raises instead of being written to the
 cache, because on one run a throttled search overwrote a good snapshot with nothing, which is a
 worse failure than crashing.
 
@@ -131,19 +132,6 @@ I should be honest about the limit here. This reads titles and search snippets, 
 the obvious cases and will miss anything subtler. It narrows the pile a human has to look at. It
 does not replace the human.
 
-## How appropriateness and relevance are actually verified
-
-They are not, and I want to be exact about this rather than let the word "vetted" do more work
-than it should.
-
-The tool establishes that a source looks institutional, reads as research or educational, and
-shows no obvious personal content markers. That is a defensible shortlist. It is not
-verification. Verification would mean a person opening each source, reading the organization's
-terms, and asking them directly what consent the recorded people gave. Everything here is
-inference from a title and two lines of text.
-
-A passing score means the source is worth a human looking at. Nothing more.
-
 ## Results
 
 The committed snapshot has 100 raw results across 10 queries, which reduce to 75 distinct
@@ -198,23 +186,3 @@ Related to that, the tool finds source pages rather than individual videos. The 
 shortlist of organizations that appear to hold relevant material, not a list of specific videos.
 Going from one to the other means a person opening each site, and for a real project that is the
 right order anyway, since you would want the agreement in place before cataloguing anything.
-
-## What a real version would need
-
-IRB approval, before any video is collected rather than after a prototype exists.
-
-Direct agreements with each publishing organization. Not a license file on a web page, an actual
-conversation with the people who hold the material, covering what the footage may be used for
-and by whom.
-
-A formal consent position for every source, confirmed in writing with the organization. This is
-the part the tool cannot touch. It would need to establish what the recorded people or their
-guardians actually agreed to, which is a legal and ethical question rather than a technical one,
-and the honest answer is often that nobody knows because the recordings predate anyone thinking
-to ask.
-
-A data handling plan covering storage, access and retention, since video of identifiable
-children is about as sensitive as research data gets.
-
-Human review of every shortlisted source. The scoring here decides what a person looks at first.
-It should never decide what gets used.
