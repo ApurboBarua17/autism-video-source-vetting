@@ -4,10 +4,8 @@ Every rule here is a plain list or a plain comparison, so a reviewer can disagre
 with a specific criterion and change it without reverse engineering a model.
 """
 
-# Weighting reflects what actually protects a study. A legitimate institutional
-# publisher is worth more than promising words in a page title, because the
-# institution is the thing that can be contacted, audited, and held to an
-# agreement later. Wording is cheap, accountability is not.
+# Publisher legitimacy is weighted highest because an institution can be
+# contacted and held to an agreement later. Wording in a title cannot.
 MAX_PUBLISHER_POINTS = 40
 MAX_INTENT_POINTS = 30
 MAX_RELEVANCE_POINTS = 20
@@ -69,11 +67,9 @@ RESEARCH_INTENT_TERMS = (
 RELEVANCE_AUTISM_TERMS = ("autism", "autistic", "asd", "neurodivergent", "developmental disabilit")
 RELEVANCE_VIDEO_TERMS = ("video", "recording", "footage", "media library", "webinar", "clip")
 
-# The brief asks for material relevant to children specifically, not to autism in
-# general. Without this an adult employment or independent living resource scores
-# exactly as well as a pediatric one. "parent" and "family" are included because
-# a resource written for the parents of an autistic person is nearly always about
-# a child, and "early intervention" and "school" are pediatric by definition.
+# The brief asks for material about children, not autism in general. "parent" and
+# "family" count because a resource written for the parents of an autistic person
+# is nearly always about a child.
 PEDIATRIC_TERMS = (
     "child",
     "children",
@@ -93,10 +89,9 @@ PEDIATRIC_TERMS = (
     "developmental screening",
 )
 
-# Phrases that suggest a specific identifiable child is the subject, or that the
-# material exists to build an audience. Either one makes a source unusable for
-# research regardless of how good the rest of it looks, so these disqualify
-# outright instead of subtracting points. A vetting tool should fail closed.
+# A specific identifiable child as the subject, or an audience building motive.
+# These disqualify outright rather than deducting points, because a vetting tool
+# should fail closed. Do not turn this into a weight.
 PERSONAL_CONTENT_RED_FLAGS = (
     "my son",
     "my daughter",

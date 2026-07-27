@@ -1,11 +1,9 @@
 """Find candidate public video sources through plain web search.
 
 No API key and no authentication, just ordinary public search result pages.
-
-Three independent endpoints are tried in order for each query. Free search
-endpoints throttle aggressively and one of them being unavailable should not stop
-a run, which is a lesson learned the hard way while building this. Raw results
-are cached so that scoring is reproducible against a fixed snapshot.
+Three endpoints are tried in order because free search endpoints throttle, and
+one being unavailable should not stop a run. Raw results are cached so scoring
+is reproducible against a fixed snapshot.
 """
 
 import json
@@ -23,11 +21,9 @@ REQUEST_HEADERS = {
     )
 }
 
-# Kept short enough to work against a small independent index as well as a large
-# one. Aimed at the four source types worth trusting: university labs, clinics,
-# established nonprofits, and material published alongside peer reviewed work.
-# Deliberately nothing that would surface family vlogs or personal channels,
-# since those are the exact thing the scoring step exists to reject.
+# Kept short so they also work against a small independent index. Deliberately
+# nothing that would surface family vlogs or personal channels, since those are
+# what the scoring step exists to reject.
 SEARCH_QUERIES = [
     "autism video library university",
     "autism research video archive",
